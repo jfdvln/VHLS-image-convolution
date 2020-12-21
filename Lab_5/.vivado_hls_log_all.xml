@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] CSim file generation failed with errors." projectName="Lab_5" solutionName="solution1" date="2020-11-19T11:50:49.832-0500"/>
+        <logs message="ERROR: [SIM 211-107] error deleting &quot;csim/build&quot;: permission denied" projectName="Lab_5" solutionName="solution1" date="2020-11-19T11:50:49.815-0500"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [XFORM 203-104] Completely partitioning array 'lbuf' (vhls/convolution.cpp:106) accessed through non-constant indices on dimension 1 (vhls/convolution.cpp:149:4), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead." projectName="Lab_5" solutionName="solution1" date="2020-11-19T11:04:27.970-0500" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Skipped source file 'rock512.pgm'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx." projectName="Lab_5" solutionName="solution1" date="2020-11-19T11:03:56.326-0500" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
